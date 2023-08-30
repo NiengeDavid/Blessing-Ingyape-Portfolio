@@ -1,0 +1,27 @@
+{
+  "name": "reclaim-foundation",
+  "version": "1.0.0",
+  "description": "An NGO Website that runs media operations",
+  "main": "index.js",
+  "scripts": {
+    "start": "app.js",
+    "dev": "nodemon app.js",
+    "build": "tailwindcss -i ./public/input.css -o ./public/css/main.css",
+    "watch": "tailwindcss -i ./public/input.css -o ./public/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "flowbite": "^1.8.1",
+    "nodemailer": "^6.9.4",
+    "postmark": "^3.0.19"
+  }
+}
